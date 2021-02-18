@@ -1,0 +1,4 @@
+include ':customers'
+include ':common'
+include ':garage'
+rootProject.name = "MultiGarage"

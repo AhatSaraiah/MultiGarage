@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Garage app" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_BTN_downloadGarage"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="download Garage"
+        android:layout_below="@+id/textView"
+        android:textAllCaps="false"
+        app:cornerRadius="50dp"
+        app:strokeColor="#034056" />
+
+    <TextView
+        android:id="@+id/map_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" TITLE "
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="36sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/main_BTN_downloadGarage"
+        android:text="Info Text"
+        android:textColor="#000000"
+        android:textAllCaps="false"/>
+</RelativeLayout>
